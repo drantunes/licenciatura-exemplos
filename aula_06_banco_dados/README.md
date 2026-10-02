@@ -1,7 +1,5 @@
 # Aula 6 — Banco de Dados local
 
-[Slides](https://docs.google.com/presentation/d/1JetdY0mdSrBlJDo6uCxqJqhDnNMLDYP91tbZu8jah3I/edit)
-
 `SharedPreferencesAsync` persiste a preferência light/dark. `TemaController` lê o valor antes de runApp e expõe um ValueNotifier observado pelo MaterialApp. O catálogo usa Hive CE com Box<Map>, sem gerador de código, TypeAdapter ou anotações de modelo.
 
 - `lib/main.dart`: inicialização e interface.
@@ -15,9 +13,7 @@ A [versão PocketBase](../aula_06_pocketbase) é uma alternativa de service. As 
 
 ## Executar e verificar
 
-A estrutura macOS está pronta. Execute `flutter pub get` e `flutter run -d macos`. A janela abre em 480 × 760 pontos. Para outras plataformas, gere a estrutura Flutter correspondente.
-
-As [capturas reais da demonstração](../screenshots/aula_06/index.html) incluem o app reaberto com tema e produtos persistidos.
+Execute `flutter pub get` e `flutter run `.
 
 Para analisar e testar o código nesta pasta:
 
