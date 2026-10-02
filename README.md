@@ -1,4 +1,4 @@
-# licenciatura-demos
+# Códigos de Exemplos
 
 Demonstrações Flutter das Aulas 3–7 do Prof. Dr. Diego Antunes. Cada pasta de aula é um projeto independente. Os exemplos preservam os textos, os dados e os conceitos apresentados nos slides do professor.
 
