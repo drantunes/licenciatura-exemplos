@@ -1,0 +1,16 @@
+name: aula6_banco_dados
+description: Tema persistente e produtos locais com Hive CE.
+publish_to: none
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.5
+  hive_ce: ^2.19.3
+  hive_ce_flutter: ^2.3.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true

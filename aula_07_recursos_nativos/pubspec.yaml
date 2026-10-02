@@ -1,0 +1,19 @@
+name: aula_07_recursos_nativos
+description: Foto, galeria e QR Code com UI chamando diretamente o service.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ^3.9.0
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.2.2
+  mobile_scanner: ^7.2.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  integration_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
